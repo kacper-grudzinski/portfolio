@@ -4,7 +4,16 @@ module.exports = {
     "./src/**/*.{html,js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        bg: '#020916',
+        accent: '#887EFF',
+      },
+
+      fontFamily:{
+        'dmsans': ['DM Sans', 'sans-serif']
+      }
+    },
   },
   plugins: [],
 }
