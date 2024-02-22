@@ -13,12 +13,18 @@
     />
   </head>
   <body class="bg-bg font-dmsans text-white">
-    <main>
-      <header>
-        <img class="w-10 h-10" src="./images/star.svg" alt="" />
-        <p>Kacper Grudziński</p>
-        <p>Frontend developer</p>
-        <nav>
+    <main class="px-4">
+      <header class="max-w-wtf mx-auto py-6">
+        <div class="flex gap-4 items-center">
+          <img class="w-10 h-10" src="./images/star.svg" alt="" />
+          <div>
+            <p class="text-xl font-bold text-accent">Kacper Grudzinski</p>
+            <p class="opacity-40 uppercase text-xs tracking-wider">
+              Frontend developer
+            </p>
+          </div>
+        </div>
+        <nav class="hidden">
           <ul>
             <li><a href="#about">About</a></li>
             <li><a href="#skills"></a>Skills</li>
@@ -28,21 +34,37 @@
           </ul>
         </nav>
       </header>
-      <section id="about">
-        <h1>
+      <section id="about" class="max-w-wtf mx-auto mb-20">
+        <img
+          class="w-full mb-5"
+          src="./images/kacper.png"
+          alt="Kacper Grudzinski"
+        />
+        <h1 class="font-bold text-2xl mb-4">
           My name is Maciek and I’m an aspiring
-          <span>Frontend developer</span> and a keen Star Wars fan.
+          <span class="text-accent">Frontend developer</span> and a keen Star
+          Wars fan.
         </h1>
-        <p>
-          You might be interested in checking the list of my skills. Don’t
-          forget to have a glimpse at my projects. I’m looking for a new
-          challenges so if you have one - contact me 😊
+        <p class="text-gray-400 mb-8">
+          You might be interested in checking the list of my
+          <a class="text-white" href="#skills">skills</a>. Don’t forget to have
+          a glimpse at my <a class="text-white" href="#projects">projects</a>.
+          I’m looking for a new challenges so if you have one -
+          <a class="text-white" href="#contact">contact me</a> 😊.
         </p>
-        <a href="#contact">Get in touch</a>
-        <a href="#skills">Get to know me</a>
-        <img src="./images/kacper.png" alt="" />
+        <div class="flex flex-col items-start gap-4">
+        <a
+          href="#contact"
+          class="text-bg bg-accent flex gap-3 font-bold text-xl py-2 px-4 items-center rounded-[0.625rem]"
+          ><img src="./images/chat.svg" alt=""/>Get in touch</a>
+        <a
+          href="#skills"
+          class="flex gap-3 font-bold text-xl py-2 px-4 items-center rounded-[0.625rem] border-lightGray border-2"
+          ><img src="./images/user.svg" alt=""/>Get to know me</a
+        >
+      </div>
       </section>
-      <section id="skills">
+      <section id="skills" class="max-w-wtf mx-auto">
         <h2>My skills</h2>
         <p>
           I've picked up some cool skills along the way, and I'm excited to
@@ -90,7 +112,7 @@
           </ul>
         </article>
       </section>
-      <section id="projects">
+      <section id="projects" class="max-w-wtf mx-auto">
         <h2>Recent projects</h2>
         <p>
           m Since diving into frontend development in 2023, I've brought a range
@@ -114,7 +136,7 @@
           <a href="#"><img src="./images/git.svg" alt="" /> Source code</a>
         </article>
       </section>
-      <section>
+      <section class="max-w-wtf mx-auto">
         <h2>After Hours</h2>
         <p>
           Outside of my regular working hours, I delve into an array of
@@ -154,25 +176,40 @@
           </p>
         </article>
       </section>
-      <section id="contact">
+      <section id="contact" class="max-w-wtf mx-auto">
         <h2>Let’s work together</h2>
         <p>
           I’m open for new opportunities. <br />If you have one for me we should
           talk!
         </p>
         <a href="mailto:grudzinski.business@gmail.com"
-          ><img
-            src="./images/post.svg"
-            alt=""
-          />grudzinski.business@gmail.com
+          ><img src="./images/post.svg" alt="" />grudzinski.business@gmail.com
         </a>
         <p>or find me on</p>
         <ul>
-          <li><a href="#"><img class="w-6 h-6" src="./images/git.svg" alt=""></a></li>
-          <li><a href="#"><img class="w-6 h-6" src="./images/linkedin.svg" alt=""></a></li>
-          <li><a href="#"><img class="w-6 h-6" src="./images/fb.svg" alt=""></a></li>
-          <li><a href="#"><img class="w-6 h-6" src="./images/insta.svg" alt=""></a></li>
-          <li><a href="#"><img class="w-6 h-6" src="./images/twitter.svg" alt=""></a></li>
+          <li>
+            <a href="#"
+              ><img class="w-6 h-6" src="./images/git.svg" alt=""
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img class="w-6 h-6" src="./images/linkedin.svg" alt=""
+            /></a>
+          </li>
+          <li>
+            <a href="#"><img class="w-6 h-6" src="./images/fb.svg" alt="" /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img class="w-6 h-6" src="./images/insta.svg" alt=""
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img class="w-6 h-6" src="./images/twitter.svg" alt=""
+            /></a>
+          </li>
         </ul>
       </section>
     </main>
