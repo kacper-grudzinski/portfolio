@@ -5,13 +5,12 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors: {
-        bg: '#020916',
-        accent: '#887EFF',
+      colors:{
+        'bg': '#020916',
+        'accent': '#887EFF'
       },
-
       fontFamily:{
-        'dmsans': ['DM Sans', 'sans-serif']
+        'dm-sans': ['DM Sans', 'sans-serif']
       }
     },
   },
