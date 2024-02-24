@@ -16,7 +16,11 @@
     <main class="px-4">
       <header class="max-w-wtf mx-auto py-6">
         <div class="flex gap-4 items-center">
-          <img class="w-10 h-10 animate-spin-slow" src="./images/star.svg" alt="" />
+          <img
+            class="w-10 h-10 animate-spin-slow"
+            src="images/star.svg"
+            alt=""
+          />
           <div>
             <p class="text-xl font-bold text-accent">Kacper Grudzinski</p>
             <p class="opacity-40 uppercase text-xs tracking-wider">
@@ -24,7 +28,7 @@
             </p>
           </div>
         </div>
-        <nav class="hidden" >
+        <nav class="hidden">
           <ul>
             <li><a href="#about">About</a></li>
             <li><a href="#skills"></a>Skills</li>
@@ -37,7 +41,7 @@
       <section id="about" class="max-w-wtf mx-auto mb-20">
         <img
           class="w-full mb-5"
-          src="./images/kacper.png"
+          src="images/kacper.png"
           alt="Kacper Grudzinski"
         />
         <h1 class="font-bold text-2xl mb-4">
@@ -53,27 +57,38 @@
           <a class="text-white" href="#contact">contact me</a> 😊.
         </p>
         <div class="flex flex-col items-start gap-4">
-        <a
-          href="#contact"
-          class="text-bg bg-accent flex gap-3 font-bold text-xl py-2 px-4 items-center rounded-[0.625rem]"
-          ><img src="./images/chat.svg" alt=""/>Get in touch</a>
-        <a
-          href="#skills"
-          class="flex gap-3 font-bold text-xl py-2 px-4 items-center rounded-[0.625rem] border-lightGray border-2"
-          ><img src="./images/user.svg" alt=""/>Get to know me</a
-        >
-      </div>
+          <a
+            href="#contact"
+            class="text-bg bg-accent flex gap-3 font-bold text-xl py-2 px-4 items-center rounded-[0.625rem]"
+            ><img src="images/chat.svg" alt="" />Get in touch</a
+          >
+          <a
+            href="#skills"
+            class="flex gap-3 font-bold text-xl py-2 px-4 items-center rounded-[0.625rem] border-lightGray border-2"
+            ><img src="images/user.svg" alt="" />Get to know me</a
+          >
+        </div>
       </section>
-      <section id="skills" class="max-w-wtf mx-auto">
-        <h2 class="text-gray-400 uppercase font-bold text-xl tracking-wider mb-4">My skills</h2>
+      <section id="skills" class="max-w-wtf mx-auto mb-big">
+        <h2
+          class="text-gray-400 uppercase font-bold text-xl tracking-wider mb-4"
+        >
+          My skills
+        </h2>
         <p class="text-2xl font-medium tracking-tight mb-10">
           I've picked up some cool skills along the way, and I'm excited to
           share them with you. Check out what I can do below!
         </p>
         <div class="grid gap-4">
-          <article class="bg-gradient-to-br from-white/10 to-white/5 p-5 rounded-wtf shadow-innerlight ring ring-bg">
-            <img class="w-44 h-40 mb-10" src="./images/triangle.svg" alt="" />
-            <h3 class="border-accent border-t-2 pt-3 text-2xl font-bold tracking-tight mb-3">Working knowledge</h3>
+          <article
+            class="bg-gradient-to-br from-white/10 to-white/5 p-5 rounded-wtf shadow-innerlight ring ring-bg"
+          >
+            <img class="w-44 h-40 mb-10" src="images/triangle.svg" alt="" />
+            <h3
+              class="border-accent border-t-2 pt-3 text-2xl font-bold tracking-tight mb-3"
+            >
+              Working knowledge
+            </h3>
             <ul class="font-medium text-sm tracking-tight space-y-2">
               <li>— Semantic HTML5</li>
               <li>— Flexbox</li>
@@ -86,9 +101,15 @@
               <li>— SASS</li>
             </ul>
           </article>
-          <article class="bg-gradient-to-br from-white/10 to-white/5 p-5 rounded-wtf shadow-innerlight ring ring-bg">
-            <img class="w-44 h-40 mb-10" src="./images/circle.svg" alt="" />
-            <h3 class="border-accent border-t-2 pt-3 text-2xl font-bold tracking-tight mb-3">Know something about</h3>
+          <article
+            class="bg-gradient-to-br from-white/10 to-white/5 p-5 rounded-wtf shadow-innerlight ring ring-bg"
+          >
+            <img class="w-44 h-40 mb-10" src="images/circle.svg" alt="" />
+            <h3
+              class="border-accent border-t-2 pt-3 text-2xl font-bold tracking-tight mb-3"
+            >
+              Know something about
+            </h3>
             <ul class="font-medium text-sm tracking-tight space-y-2">
               <li>— JavaScript ES6 + features</li>
               <li>— CSS animations</li>
@@ -99,9 +120,15 @@
               <li>— Accessibility</li>
             </ul>
           </article>
-          <article class="bg-gradient-to-br from-white/10 to-white/5 p-5 rounded-wtf shadow-innerlight ring ring-bg">
-            <img class="w-44 h-40 mb-10" src="./images/cube.svg" alt="" />
-            <h3 class="border-accent border-t-2 pt-3 text-2xl font-bold tracking-tight mb-3">Want to learn</h3>
+          <article
+            class="bg-gradient-to-br from-white/10 to-white/5 p-5 rounded-wtf shadow-innerlight ring ring-bg"
+          >
+            <img class="w-44 h-40 mb-10" src="images/cube.svg" alt="" />
+            <h3
+              class="border-accent border-t-2 pt-3 text-2xl font-bold tracking-tight mb-3"
+            >
+              Want to learn
+            </h3>
             <ul class="font-medium text-sm tracking-tight space-y-2">
               <li>— React</li>
               <li>— Node</li>
@@ -113,31 +140,57 @@
             </ul>
           </article>
         </div>
-
       </section>
-      <section id="projects" class="max-w-wtf mx-auto">
-        <h2>Recent projects</h2>
-        <p>
-          m Since diving into frontend development in 2023, I've brought a range
+      <section id="projects" class="max-w-wtf mx-auto mb-big ">
+        <h2
+          class="text-gray-400 uppercase font-bold text-xl tracking-wider mb-4"
+        >
+          Recent projects
+        </h2>
+        <p class="text-2xl font-medium tracking-tight mb-10">
+          Since diving into frontend development in 2023, I've brought a range
           of projects to life. Here's a snapshot of my accomplishments so far.
         </p>
-        <article>
-          <h3>simple-editor</h3>
-          <p><img src="./images/smallStar.svg" alt="" class="w-4 h-4" />27</p>
-          <p>
-            Phasellus dolor. In dui magna, posuere eget, vestibulum et, tempor
-            auctor, justo fringilla mauris sit amet nibh. Susspendisse pulvinar,
-            augue ac venenatis condimentum, sem libero volutpat...
-          </p>
-          <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>TypeScript</li>
-            <li>React</li>
-          </ul>
-          <a href="#"><img src="./images/demo.svg" alt="" /> View demo</a>
-          <a href="#"><img src="./images/git.svg" alt="" /> Source code</a>
-        </article>
+        <div class="grid">
+          <article
+            class="rounded-wtf overflow-clip bg-gradient-to-br from-white/10 to-white/5"
+          >
+            <div
+              class="flex border-b border-bg shadow-innerlight rounded-t-wtf gap-1.5 p-4 bg-gradient-to-br from-white/10 to-white/5 h-11"
+            >
+              <span class="h-3 w-3 block rounded-full bg-bg opacity-50"></span>
+              <span class="h-3 w-3 block rounded-full bg-bg opacity-50"></span>
+              <span class="h-3 w-3 block rounded-full bg-bg opacity-50"></span>
+            </div>
+            <div class="p-5">
+              <header class="items-center mb-4 flex gap-4">
+                <h3 class="font-bold leading-none text-2xl">simple-editor</h3>
+                <p
+                  class="flex rounded leading-none items-center gap-0.5 bg-gray-400/10 py-1 px-2 text-gray-400 font-medium"
+                >
+                  <img src="images/smallStar.svg" alt="" class="w-4 h-4" />27
+                </p>
+              </header>
+
+              <p class="text-gray-400 text-xl mb-4">
+                Phasellus dolor. In dui magna, posuere eget, vestibulum et,
+                tempor auctor, justo fringilla mauris sit amet nibh.
+                Susspendisse pulvinar, augue ac venenatis condimentum, sem
+                libero volutpat...
+              </p>
+              <ul class="flex gap-2 mb-10">
+                <li class="rounded bg-gray-400/10 py-1 px-2 text-sm font-bold">HTML</li>
+                <li class="rounded bg-gray-400/10 py-1 px-2 text-sm font-bold">CSS</li>
+                <li class="rounded bg-gray-400/10 py-1 px-2 text-sm font-bold">TypeScript</li>
+                <li class="rounded bg-gray-400/10 py-1 px-2 text-sm font-bold">React</li>
+              </ul>
+              <div class="flex flex-col gap-4 items-start">
+                <a class=" text-accent bg-bg flex gap-3 font-bold py-4 px-5 items-center rounded-xl border-lightGray border-2" href="#"><img src="./images/demo.svg" alt=""/> View demo</a>
+                <a class=" text-accent bg-bg flex gap-3 font-bold py-4 px-5 items-center rounded-xl border-lightGray border-2" href="#"><img src="images/git.svg" alt=""/> Source code</a>
+              </div>
+            </div>
+          </article>
+        </div>
       </section>
       <section class="max-w-wtf mx-auto">
         <h2>After Hours</h2>
@@ -147,7 +200,7 @@
           after-hours.
         </p>
         <article>
-          <img src="./images/music.png" alt="" />
+          <img src="images/music.png" alt="" />
           <h3>Electronic Music</h3>
           <p>
             Outside of my regular working hours, I immerse myself in the
@@ -155,7 +208,7 @@
           </p>
         </article>
         <article>
-          <img src="./images/room.png" alt="" />
+          <img src="images/room.png" alt="" />
           <h3>Star Wars Universum</h3>
           <p>
             In a galaxy not so far away, my leisure time is often spent
@@ -163,7 +216,7 @@
           </p>
         </article>
         <article>
-          <img src="./images/game.png" alt="" />
+          <img src="images/game.png" alt="" />
           <h3>Video Games</h3>
           <p>
             Lost in virtual realms, I find joy and challenge in the dynamic
@@ -171,7 +224,7 @@
           </p>
         </article>
         <article>
-          <img src="./images/gym.png" alt="" />
+          <img src="images/gym.png" alt="" />
           <h3>Strength Training</h3>
           <p>
             Empowering both body and mind, I'm dedicated to the discipline of
@@ -186,31 +239,31 @@
           talk!
         </p>
         <a href="mailto:grudzinski.business@gmail.com"
-          ><img src="./images/post.svg" alt="" />grudzinski.business@gmail.com
+          ><img src="images/post.svg" alt="" />grudzinski.business@gmail.com
         </a>
         <p>or find me on</p>
         <ul>
           <li>
             <a href="#"
-              ><img class="w-6 h-6" src="./images/git.svg" alt=""
+              ><img class="w-6 h-6" src="images/git.svg" alt=""
             /></a>
           </li>
           <li>
             <a href="#"
-              ><img class="w-6 h-6" src="./images/linkedin.svg" alt=""
+              ><img class="w-6 h-6" src="images/linkedin.svg" alt=""
             /></a>
           </li>
           <li>
-            <a href="#"><img class="w-6 h-6" src="./images/fb.svg" alt="" /></a>
+            <a href="#"><img class="w-6 h-6" src="images/fb.svg" alt="" /></a>
           </li>
           <li>
             <a href="#"
-              ><img class="w-6 h-6" src="./images/insta.svg" alt=""
+              ><img class="w-6 h-6" src="images/insta.svg" alt=""
             /></a>
           </li>
           <li>
             <a href="#"
-              ><img class="w-6 h-6" src="./images/twitter.svg" alt=""
+              ><img class="w-6 h-6" src="images/twitter.svg" alt=""
             /></a>
           </li>
         </ul>
