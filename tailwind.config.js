@@ -5,6 +5,12 @@ module.exports = {
   ],
   theme: {
     extend: {
+      animation: {
+        'spin-slow': 'spin 4s linear infinite',
+      },
+      borderRadius:{
+        'wtf': '0.625rem'
+      },
       colors:{
         'bg': '#020916',
         'accent': '#887EFF',
@@ -15,7 +21,10 @@ module.exports = {
       },
       maxWidth:{
         'wtf': '82rem',
-      }
+      },
+      boxShadow:{
+        'innerlight': 'inset 0 2px 0 0 rgba(255, 255, 255, 0.15)'
+      },
     },
   },
   plugins: [],
