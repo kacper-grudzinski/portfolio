@@ -9,7 +9,8 @@ module.exports = {
         'spin-slow': 'spin 4s linear infinite',
       },
       borderRadius:{
-        'wtf': '0.625rem'
+        'wtf': '0.625rem',
+        'wtf-xl':'1.25rem'
       },
       colors:{
         'bg': '#020916',

@@ -33,40 +33,53 @@
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
-            <li><a class="flex gap-2 items-center" download href="#"><img src="images/download.svg" alt=""> Resume</a></li>
-            <li><a class="inline-block bg-accent text-bg rounded-xl py-3.5 px-8" href="#contact">Contact</a></li>
+            <li>
+              <a class="flex gap-2 items-center" download href="#"
+                ><img src="images/download.svg" alt="" /> Resume</a
+              >
+            </li>
+            <li>
+              <a
+                class="inline-block bg-accent text-bg rounded-xl py-3.5 px-8"
+                href="#contact"
+                >Contact</a
+              >
+            </li>
           </ul>
         </nav>
       </header>
-      <section id="about" class="max-w-wtf mx-auto mb-20">
+      <section id="about" class="max-w-wtf mx-auto mb-20 md:flex items-center md:pt-32 md:mb-32 md:justify-between gap-12">
         <img
-          class="w-full mb-5"
+          class="w-full mb-5 md:order-2 md:w-[26rem]"
           src="images/kacper.png"
           alt="Kacper Grudzinski"
         />
-        <h1 class="font-bold text-2xl mb-4">
-          My name is Kacper and I’m an aspiring
-          <span class="text-accent">Frontend developer</span> and a keen Star
-          Wars fan.
-        </h1>
-        <p class="text-gray-400 mb-8">
-          You might be interested in checking the list of my
-          <a class="text-white" href="#skills">skills</a>. Don’t forget to have
-          a glimpse at my <a class="text-white" href="#projects">projects</a>.
-          I’m looking for a new challenges so if you have one -
-          <a class="text-white" href="#contact">contact me</a> 😊.
-        </p>
-        <div class="flex flex-col items-start gap-4">
-          <a
-            href="#contact"
-            class="text-bg bg-accent flex gap-3 font-bold text-xl py-2 px-4 items-center rounded-[0.625rem]"
-            ><img src="images/chat.svg" alt="" />Get in touch</a
-          >
-          <a
-            href="#skills"
-            class="flex gap-3 font-bold text-xl py-2 px-4 items-center rounded-[0.625rem] border-lightGray border-2"
-            ><img src="images/user.svg" alt="" />Get to know me</a
-          >
+        <div class="max-w-3xl">
+          <h1 class="font-bold text-2xl mb-4 md:text-3xl lg:text-5xl md:tracking-tight md:leading-snug">
+            My name is Kacper and I’m an aspiring
+            <span class="text-accent">Frontend developer</span> and a keen Star
+            Wars fan.
+          </h1>
+          <p class="text-gray-400 mb-8 font-medium md:text-2xl md:mb-16">
+            You might be interested in checking the list of my
+            <a class="text-white" href="#skills">skills</a>. Don’t forget to
+            have a glimpse at my
+            <a class="text-white" href="#projects">projects</a>. I’m looking for
+            a new challenges so if you have one -
+            <a class="text-white" href="#contact">contact me</a> 😊.
+          </p>
+          <div class="flex flex-col items-start gap-4 md:flex-row">
+            <a
+              href="#contact"
+              class="text-bg bg-accent flex gap-3 font-bold text-xl py-2 px-4 items-center rounded-wtf ring-accent ring-2 md:rounded-wtf-xl md:py-3.5 md:px-8"
+              ><img src="images/chat.svg" alt="" />Get in touch</a
+            >
+            <a
+              href="#skills"
+              class="flex text-accent gap-3 font-bold text-xl py-2 px-4 items-center rounded-[0.625rem] ring-lightGray ring-2 md:rounded-wtf-xl md:py-3.5 md:px-8"
+              ><img src="images/user.svg" alt="" />Get to know me</a
+            >
+          </div>
         </div>
       </section>
       <section id="skills" class="max-w-wtf mx-auto mb-big">
@@ -279,23 +292,37 @@
         <p class="text-2xl text-gray-400 font-medium mb-6">or find me on</p>
         <ul class="flex gap-4 justify-center flex-wrap">
           <li>
-            <a class="w-14 h-14 shadow-innerlightmini rounded-full flex items-center justify-center bg-gradient-to-br from-white/10 to-white/5" href="#"><img class="w-6 h-6" src="images/git.svg" alt="" /></a>
+            <a
+              class="w-14 h-14 shadow-innerlightmini rounded-full flex items-center justify-center bg-gradient-to-br from-white/10 to-white/5"
+              href="#"
+              ><img class="w-6 h-6" src="images/git.svg" alt=""
+            /></a>
           </li>
           <li>
-            <a class="w-14 h-14 shadow-innerlightmini rounded-full flex items-center justify-center bg-gradient-to-br from-white/10 to-white/5" href="#"
+            <a
+              class="w-14 h-14 shadow-innerlightmini rounded-full flex items-center justify-center bg-gradient-to-br from-white/10 to-white/5"
+              href="#"
               ><img class="w-6 h-6" src="images/linkedin.svg" alt=""
             /></a>
           </li>
           <li>
-            <a class="w-14 h-14 shadow-innerlightmini rounded-full flex items-center justify-center bg-gradient-to-br from-white/10 to-white/5" href="#"><img class="w-6 h-6" src="images/fb.svg" alt="" /></a>
+            <a
+              class="w-14 h-14 shadow-innerlightmini rounded-full flex items-center justify-center bg-gradient-to-br from-white/10 to-white/5"
+              href="#"
+              ><img class="w-6 h-6" src="images/fb.svg" alt=""
+            /></a>
           </li>
           <li>
-            <a class="w-14 h-14 shadow-innerlightmini rounded-full flex items-center justify-center bg-gradient-to-br from-white/10 to-white/5" href="#"
+            <a
+              class="w-14 h-14 shadow-innerlightmini rounded-full flex items-center justify-center bg-gradient-to-br from-white/10 to-white/5"
+              href="#"
               ><img class="w-6 h-6" src="images/insta.svg" alt=""
             /></a>
           </li>
           <li>
-            <a class="w-14 h-14 shadow-innerlightmini rounded-full flex items-center justify-center bg-gradient-to-br from-white/10 to-white/5" href="#"
+            <a
+              class="w-14 h-14 shadow-innerlightmini rounded-full flex items-center justify-center bg-gradient-to-br from-white/10 to-white/5"
+              href="#"
               ><img class="w-6 h-6" src="images/twitter.svg" alt=""
             /></a>
           </li>
