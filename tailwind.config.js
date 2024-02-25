@@ -23,7 +23,8 @@ module.exports = {
         'wtf': '82rem',
       },
       boxShadow:{
-        'innerlight': 'inset 0 2px 0 0 rgba(255, 255, 255, 0.15)'
+        'innerlight': 'inset 0 2px 0 0 rgba(255, 255, 255, 0.15)',
+        'innerlightmini': 'inset 0 1px 0 0 rgba(255, 255, 255, 0.15)'
       },
       margin: {
         'big': '7.5rem'
