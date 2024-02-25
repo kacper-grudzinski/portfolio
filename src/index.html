@@ -14,7 +14,7 @@
   </head>
   <body class="bg-bg font-dmsans text-white">
     <main class="px-4">
-      <header class="max-w-wtf mx-auto py-6">
+      <header class="max-w-wtf mx-auto py-6 gap-4 flex justify-between">
         <div class="flex gap-4 items-center">
           <img
             class="w-10 h-10 animate-spin-slow"
@@ -28,13 +28,13 @@
             </p>
           </div>
         </div>
-        <nav class="hidden">
-          <ul>
+        <nav class="hidden md:block">
+          <ul class="flex gap-10 items-center font-medium">
             <li><a href="#about">About</a></li>
-            <li><a href="#skills"></a>Skills</li>
-            <li><a href="#projects"></a>Projects</li>
-            <li><a download href="#"></a>Resume</li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a class="flex gap-2 items-center" download href="#"><img src="images/download.svg" alt=""> Resume</a></li>
+            <li><a class="inline-block bg-accent text-bg rounded-xl py-3.5 px-8" href="#contact">Contact</a></li>
           </ul>
         </nav>
       </header>
