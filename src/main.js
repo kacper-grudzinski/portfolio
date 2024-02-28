@@ -44,7 +44,7 @@ fetch(`https://api.github.com/users/${username}/repos?direction=${direction}`)
           </header>
         
           <p class="text-gray-400 text-xl mb-4">${description}</p>
-          <ul class="flex gap-2 mb-10">${tags}</ul>
+          <ul class="flex gap-2 mb-10 flex-wrap">${tags}</ul>
           <div class="flex flex-col md:flex-row gap-4 items-start">
             <a
               target="_blank"
