@@ -34,13 +34,18 @@
             <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
             <li>
-              <a class="flex gap-2 items-center" download href="#"
-                ><img src="images/download.svg" alt="" /> Resume</a
+              <a class="flex gap-2 items-center group" download href="#"
+                ><img
+                  class="group-hover:animate-pulse"
+                  src="images/download.svg"
+                  alt=""
+                />
+                Resume</a
               >
             </li>
             <li>
               <a
-                class="inline-block bg-accent text-bg rounded-xl py-3.5 px-8"
+                class="inline-block bg-accent text-bg rounded-xl py-3.5 px-8 hover:bg-accent-500 transition-colors duration-150"
                 href="#contact"
                 >Contact</a
               >
@@ -48,17 +53,26 @@
           </ul>
         </nav>
       </header>
-      <section id="about" class="max-w-wtf mx-auto mb-20 md:flex items-center md:pt-32 md:mb-32 md:justify-between gap-12">
-        <img
-          class="w-full mb-5 md:order-2 md:w-[26rem]"
-          src="images/kacper.png"
-          alt="Kacper Grudzinski"
-        />
+      <section
+        id="about"
+        class="max-w-wtf mx-auto mb-20 md:flex items-center md:pt-32 md:mb-32 md:justify-between gap-12"
+      >
+        <picture class="flex justify-center items-center md:order-2">
+          <source srcset="images/kacper.png?as=webp&width=416" />
+          <source srcset="images/kacper.png?as=avif&width=416" type="image/avif" />
+          <img
+            class="w-full max-w-xs md:max-w-none mb-5 md:w-[26rem]"
+            src="images/kacper.png"
+            alt="Photo of Kacper Grudzinski"
+          />
+        </picture>
         <div class="max-w-3xl">
-          <h1 class="font-bold text-2xl mb-4 md:text-3xl lg:text-5xl md:tracking-tight md:leading-snug lg:leading-snug">
+          <h1
+            class="font-bold text-2xl mb-4 md:text-3xl lg:text-5xl md:tracking-tight md:leading-snug lg:leading-snug"
+          >
             My name is Kacper and I’m an aspiring
-            <span class="text-accent">Frontend developer</span> and a&nbsp;keen Star
-            Wars fan.
+            <span class="text-accent">Frontend developer</span> and a&nbsp;keen
+            Star Wars fan.
           </h1>
           <p class="text-gray-400 mb-8 font-medium md:text-2xl md:mb-16">
             You might be interested in checking the list of my
@@ -71,12 +85,12 @@
           <div class="flex flex-col items-start gap-4 flex-wrap md:flex-row">
             <a
               href="#contact"
-              class="text-bg bg-accent flex gap-3 font-bold text-xl py-2 px-4 items-center rounded-wtf ring-accent ring-2 md:rounded-wtf-xl md:py-3.5 md:px-8"
+              class="text-bg bg-accent flex gap-3 font-bold text-xl py-2 px-4 items-center rounded-wtf ring-2 md:rounded-wtf-xl md:py-3.5 md:px-8 ring-accent hover:bg-accent-500 hover:ring-accent-500 transition-all duration-150"
               ><img src="images/chat.svg" alt="" />Get in touch</a
             >
             <a
               href="#skills"
-              class="flex text-accent gap-3 font-bold text-xl py-2 px-4 items-center rounded-[0.625rem] ring-lightGray ring-2 md:rounded-wtf-xl md:py-3.5 md:px-8"
+              class="flex text-accent gap-3 font-bold text-xl py-2 px-4 items-center rounded-[0.625rem] ring-lightGray ring-2 hover:ring-accent-500 hover:text-accent-500 transition-all duration-150 md:rounded-wtf-xl md:py-3.5 md:px-8"
               ><img src="images/user.svg" alt="" />Get to know me</a
             >
           </div>
@@ -88,15 +102,21 @@
         >
           My skills
         </h2>
-        <p class="text-2xl font-medium tracking-tight mb-10 md:text-4xl md:max-w-3xl md:mb-20">
+        <p
+          class="text-2xl font-medium tracking-tight mb-10 md:text-4xl md:max-w-3xl md:mb-20"
+        >
           I've picked up some cool skills along the way, and I'm excited to
-          share them with you. <br>Check out what I can do below!
+          share them with you. <br />Check out what I can do below!
         </p>
         <div class="grid gap-4 md:grid-cols-3">
           <article
             class="bg-gradient-to-br from-white/10 to-white/5 p-5 rounded-wtf shadow-innerlight ring ring-bg md:p-6 lg:p-10"
           >
-            <img class="w-44 h-40 mb-10 md:mb-20" src="images/triangle.svg" alt="" />
+            <img
+              class="w-44 h-40 mb-10 md:mb-20"
+              src="images/triangle.svg"
+              alt=""
+            />
             <h3
               class="border-accent border-t-2 pt-3 md:pt-3.5 text-2xl font-bold tracking-tight mb-3"
             >
@@ -117,7 +137,11 @@
           <article
             class="bg-gradient-to-br from-white/10 to-white/5 p-5 rounded-wtf shadow-innerlight ring ring-bg md:p-6 lg:p-10"
           >
-            <img class="w-44 h-40 mb-10 md:mb-20" src="images/circle.svg" alt="" />
+            <img
+              class="w-44 h-40 mb-10 md:mb-20"
+              src="images/circle.svg"
+              alt=""
+            />
             <h3
               class="border-accent border-t-2 pt-3 md:pt-3.5 text-2xl font-bold tracking-tight mb-3"
             >
@@ -136,7 +160,11 @@
           <article
             class="bg-gradient-to-br from-white/10 to-white/5 p-5 rounded-wtf shadow-innerlight ring ring-bg md:p-6 lg:p-10"
           >
-            <img class="w-44 h-40 mb-10 md:mb-20" src="images/cube.svg" alt="" />
+            <img
+              class="w-44 h-40 mb-10 md:mb-20"
+              src="images/cube.svg"
+              alt=""
+            />
             <h3
               class="border-accent border-t-2 pt-3 md:pt-3.5 text-2xl font-bold tracking-tight mb-3"
             >
@@ -160,13 +188,14 @@
         >
           Recent projects
         </h2>
-        <p class="text-2xl md:text-4xl md:max-w-3xl font-medium tracking-tight mb-10 md:mb-20">
+        <p
+          class="text-2xl md:text-4xl md:max-w-3xl font-medium tracking-tight mb-10 md:mb-20"
+        >
           Since diving into frontend development in 2023, I've brought a range
-          of projects to life. <br>Here's a&nbsp;snapshot of my accomplishments so far.
+          of projects to life. <br />Here's a&nbsp;snapshot of my
+          accomplishments so far.
         </p>
-        <div class="grid gap-4 md:grid-cols-2 projects--js">
-
-        </div>
+        <div class="grid gap-4 md:grid-cols-2 projects--js"></div>
       </section>
       <section class="max-w-wtf mx-auto mb-big md:mb-60">
         <h2
@@ -174,14 +203,28 @@
         >
           After Hours
         </h2>
-        <p class="text-2xl md:text-4xl md:max-w-3xl font-medium tracking-tight mb-10 md:mb-20">
+        <p
+          class="text-2xl md:text-4xl md:max-w-3xl font-medium tracking-tight mb-10 md:mb-20"
+        >
           Outside of my regular working hours, I delve into an array of
           activities and passions. Here's a&nbsp;glimpse into how I spend my
           after-hours.
         </p>
-        <div class="grid gap-16 md:grid-cols-2 lg:grid-cols-4 md:gap-8 lg:gap-4">
-          <article>
-            <img src="images/music.png" class="w-full mb-6" alt="" />
+        <div
+          class="grid gap-16 md:grid-cols-2 lg:grid-cols-4 md:gap-8 lg:gap-4"
+        >
+          <article class="lg:hover:scale-110 transition-all duration-150">
+            <picture>
+              <source media="(max-width:1023px)" srcset="images/music.png?as=webp&width=375&height=375" />
+              <source media="(max-width:1023px)" srcset="images/music.png?as=avif&width=375&height=375" type="image/avif" />
+              <source media="(min-width:1024px)" srcset="images/music.png?as=webp&width=316" />
+              <source media="(min-width:1024px)" srcset="images/music.png?as=avif&width=316" type="image/avif" />
+              <img
+                class="w-full mb-6 rounded-wtf-xl"
+                src="images/music.png"
+                alt=""
+              />
+            </picture>
             <h3 class="text-2xl font-bold tracking-tight mb-1">
               Electronic Music
             </h3>
@@ -190,8 +233,18 @@
               pulsating rhythms and innovative sounds of electronic music
             </p>
           </article>
-          <article>
-            <img src="images/room.png" class="w-full mb-6" alt="" />
+          <article class="lg:hover:scale-110 transition-all duration-150">
+            <picture>
+              <source media="(max-width:1023px)" srcset="images/room.png?as=webp&width=375&height=375" />
+              <source media="(max-width:1023px)" srcset="images/room.png?as=avif&width=375&height=375" type="image/avif" />
+              <source media="(min-width:1024px)" srcset="images/room.png?as=webp&width=316" />
+              <source media="(min-width:1024px)" srcset="images/room.png?as=avif&width=316" type="image/avif" />
+              <img
+                class="w-full mb-6 rounded-wtf-xl"
+                src="images/room.png"
+                alt=""
+              />
+            </picture>
             <h3 class="text-2xl font-bold tracking-tight mb-1">
               Star Wars Universum
             </h3>
@@ -200,16 +253,36 @@
               exploring the intricate lore and captivating tales of Star Wars.
             </p>
           </article>
-          <article>
-            <img src="images/game.png" class="w-full mb-6" alt="" />
+          <article class="lg:hover:scale-110 transition-all duration-150">
+            <picture>
+              <source media="(max-width:1023px)" srcset="images/game.png?as=webp&width=375&height=375" />
+              <source media="(max-width:1023px)" srcset="images/game.png?as=avif&width=375&height=375" type="image/avif" />
+              <source media="(min-width:1024px)" srcset="images/game.png?as=webp&width=316" />
+              <source media="(min-width:1024px)" srcset="images/game.png?as=avif&width=316" type="image/avif" />
+              <img
+                class="w-full mb-6 rounded-wtf-xl"
+                src="images/game.png"
+                alt=""
+              />
+            </picture>
             <h3 class="text-2xl font-bold tracking-tight mb-1">Video Games</h3>
             <p class="text-gray-400">
               Lost in virtual realms, I find joy and challenge in the dynamic
               world of video games.
             </p>
           </article>
-          <article>
-            <img src="images/gym.png" class="w-full mb-6" alt="" />
+          <article class="lg:hover:scale-110 transition-all duration-150">
+            <picture>
+              <source media="(max-width:1023px)" srcset="images/gym.png?as=webp&width=375&height=375" />
+              <source media="(max-width:1023px)" srcset="images/gym.png?as=avif&width=375&height=375" type="image/avif" />
+              <source media="(min-width:1024px)" srcset="images/gym.png?as=webp&width=316" />
+              <source media="(min-width:1024px)" srcset="images/gym.png?as=avif&width=316" type="image/avif" />
+              <img
+                class="w-full mb-6 rounded-wtf-xl"
+                src="images/gym.png"
+                alt=""
+              />
+            </picture>
             <h3 class="text-2xl font-bold tracking-tight mb-1">
               Strength Training
             </h3>
@@ -224,15 +297,19 @@
         id="contact"
         class="max-w-wtf mx-auto flex flex-col items-center mb-16 md:mb-32"
       >
-        <h2 class="tracking-tight font-bold text-3xl md:text-4xl text-center mb-4">
+        <h2
+          class="tracking-tight font-bold text-3xl md:text-4xl text-center mb-4"
+        >
           Let’s work together
         </h2>
-        <p class="text-center text-gray-400 font-medium mb-10 text-lg md:text-2xl">
+        <p
+          class="text-center text-gray-400 font-medium mb-10 text-lg md:text-2xl"
+        >
           I’m open for new opportunities. <br />If you have one for me we should
           talk!
         </p>
         <a
-          class="text-bg bg-accent flex gap-3 font-bold py-3.5 px-3.5 md:px-8 text-xl leading-9 items-center rounded-wtf-xl flex-wrap justify-center mb-10 md:mb-20"
+          class="text-bg bg-accent flex gap-3 font-bold py-3.5 px-3.5 md:px-8 text-xl leading-9 items-center rounded-wtf-xl flex-wrap justify-center mb-10 md:mb-20 hover:bg-accent-500 transition-colors duration-150"
           href="mailto:grudzinski.business@gmail.com"
           ><img src="images/post.svg" alt="" />grudzinski.business@gmail.com
         </a>

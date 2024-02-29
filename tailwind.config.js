@@ -6,15 +6,15 @@ module.exports = {
   theme: {
     extend: {
       animation: {
-        'spin-slow': 'spin 4s linear infinite',
+        'spin-slow': 'spin 6s linear infinite',
       },
       borderRadius:{
         'wtf': '0.625rem',
         'wtf-xl':'1.25rem'
       },
       colors:{
-        'bg': '#020916',
-        'accent': '#887EFF',
+        bg: '#020916',
+        accent: {DEFAULT: '#887EFF', 500: '#5f3ced'},
         lightGray: '#1F2937'
       },
       fontFamily:{
