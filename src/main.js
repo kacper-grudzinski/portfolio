@@ -54,14 +54,14 @@ fetch(`https://api.github.com/users/${username}/repos?direction=${direction}`)
               rel="noreferrer nofollow"
               class="text-accent bg-bg flex gap-3 font-bold py-4 px-5 items-center rounded-xl border-lightGray border-2 md:text-xl hover:border-accent-500 hover:text-accent-500 transition-all duration-150"
               href="${homepage}"
-              ><img src="${demo}" alt="" />View demo</a
+              ><img src="${demo}" alt="" class="w-6 h-6" height="24" width="24"/>View demo</a
             >
             <a
               target="_blank"
               rel="noreferrer nofollow"
               class="text-accent bg-bg flex gap-3 font-bold py-4 px-5 items-center rounded-xl border-lightGray border-2 md:text-xl hover:border-accent-500 hover:text-accent-500 transition-all duration-150"
               href="${html_url}"
-              ><img src="${git}" alt="" />Source code</a
+              ><img src="${git}" alt="" class="w-6 h-6" height="24" width="24"/>Source code</a
             >
           </div>
         </div>
