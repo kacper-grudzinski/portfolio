@@ -88,7 +88,7 @@ fetch(`https://api.github.com/users/${username}/repos?direction=${direction}`)
           </div>
         </div>
       </article>`;
-      if (homepage) projectsContainer.insertAdjacentHTML("beforeend", element);
+      if (homepage && stargazers_count > 0) projectsContainer.insertAdjacentHTML("beforeend", element);
     }
   })
   .catch((e) => console.log(e));
